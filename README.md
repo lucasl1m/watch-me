@@ -7,7 +7,7 @@
 ## Technologies
 
 - [React](https://reactjs.org/) and [Typescript](https://www.typescriptlang.org/)
-- Styling with [Tailwind CSS](https://www.tailwindcss.com)
+- Styling with [Sass](https://sass-lang.com/)
 - Linting with [ESLint](https://eslint.org/)
 - Formatting with [Prettier](https://prettier.io/)
 - Pre-commit and pre-push Git hooks with [Husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
@@ -19,12 +19,16 @@ This project uses [Yarn v1](https://yarnpkg.com/) as dependency manager.
 1. Clone the repository and install dependencies:
 
    ```bash
-   $ git clone git@github.com:es-2021-2-grupo-2/adottami-web.git
+   $ git clone git@github.com:lucasl1m/watch-me.git
    $ cd watch-me
    $ yarn install
    ```
 
-2. To run the project in development mode, run:
+2. To run the project in development mode, run both commands simultaneously on different terminals:
+
+  ```bash
+   $ yarn server
+   ```
 
    ```bash
    $ yarn dev
